@@ -7,6 +7,7 @@ body {
     padding: 0 1rem;
 }
 
+
 h1, h2 {
     font-family: 'Merriweather', serif;
     color: #2c3e50;
@@ -17,7 +18,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 0 20px;
+    margin: 0 auto;
     border-bottom: 1px solid #ddd;
 }
 
@@ -34,6 +36,7 @@ nav ul {
 }
 
 nav a {
+    font-size: 1.4rem;
     text-decoration: none;
     color: #555;
     font-weight: 600;
