@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Max's Tutoring Extra Help</title>
+        <link rel = "stylesheet" href ="resources/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1>Max's Tutoring Extra Help</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#subjects">Subjects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <section class="hero">
+                <h2>Welcome to Max's Tutoring Extra Help</h2>
+                <p>One-on-one tutoring in many STEM subjects</p>
+                <a href="#contact" class="btn">Get Started</a>
+            </section>
+        </header>
+
+        <main>
+            <section id="about">
+                <h2>About me</h2>
+                <p>I am a hard working, bright student hoping to aid my fellow peers in challenging subjects. I have a 3.97 (UW) 4.18 (W) GPA, and got a 94 on the geometry regents and a 98 on the chemistry regents, making me well versed in both subjects. I recently participated in two science competitions for my Foundations of Research Honors class in the spring of 2025. In my group, we were regional semi-finalists in the Junior Exploravision competition, and won High Honors in the LISC (Long Island Science Congress) competition. </p>
+            </section>
+
+            <section id="subjects">
+                <h2>Subjects Offered I Have Completed</h2>
+                <div class="subject-grid">
+                    <div class="subject-card">Geometry</div>
+                    <div class="subject-card">Chemistry</div>
+                    <div class="subject-card">Intro to Computer Science</div>
+                </div>
+                <h2>Subject Offered I am Currently Taking</h2>
+                <div class="subject-grid">
+                    <div class="subject-card">Algebra 2</div>
+                    <div class="subject-card">AP Physics</div>
+                    <div class="subject-card">AP Computer Science A</div>
+                </div>
+            </section>
+            
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>You can reach out to me using the following information below.</p>
+                <ul>
+                    <li onclick="copyText('maxphilipyulico@icloud.com',event)">
+                        <strong>Email:</strong> maxphilipyulico@icloud.com
+                    </li>
+                    <li onclick="copyText('631-988-2248', event)">
+                        <strong>Phone:</strong> 631-988-2248
+                    </li>
+                </ul>
+                <p id="copyMessage">Copied!</p>
+            </section>
+        </main>
+        <script src="resources/js/script.js"></script>
+    </body>
+</html>
